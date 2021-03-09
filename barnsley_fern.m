@@ -1,15 +1,3 @@
-# Barnsley Fern
-
-- [IFS(Iterated Function System)-Bildkodierung mit Iterierten Funktionensystemen](http://www.eberl.net/chaos/Sem/Grage/D_ifs.htm)
-- [Lineare Abbildungen](http://www.mathe.tu-freiberg.de/~bernstei/Vorlesung-html/Folien/HM2-Folien-Lineare-Abbildungen-2018.pdf)
-- [A Barnsley fern generator](https://www.chradams.co.uk/fern/maker.html)
-- [Lineare Transformationen](http://www.chemgapedia.de/vsengine/vlu/vsc/de/ma/1/mc/ma_11/ma_11_03/ma_11_03_01.vlu.html)
-- [Affine Abbildungen I](http://www.inf.fu-berlin.de/lehre/WS06/19605_Computergrafik/doku/rossbach_siewert/affinetransformation.html)
-- [Affine Abbildungen II](https://www.redusoft.de/info/mathprof-hilfe/affine-abbildung.html)
-
-## Code
-
-```R
 f1_abcd = [0 0 ; 0 0.16]
 f2_abcd = [ 0.85 0.04 ; -0.04 0.85 ]
 f3_abcd = [ 0.2 -0.26 ; 0.23 0.22 ]
@@ -61,4 +49,3 @@ X = H(:,1)
 Y = H(:,2)
 
 plot(X,Y,'.', 'Color', [0, 0, 0], 'markersize', 0.1)
-```
